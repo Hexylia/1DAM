@@ -7,11 +7,13 @@ public class BinString {
 	public BinString(){}
 
 	// ¿Qué hace este método?
+	//Convierte un string a hexadecimal y leugo a binario
 	public String convertir(String s){
 		return aBinario(sumar(s));
 	}
 	
 	// ¿Qué hace este método?
+	//Suma los valores en hexadecimal 
 	public int sumar(String s){
 		String s1 = s.substring(0);
 		int sum = 0;
@@ -25,6 +27,7 @@ public class BinString {
 	}
 	
 	// ¿Qué hace este método?
+	//Convierte un numero a binario
 	public String aBinario(int n){
 	    String s = "";
 	    
